@@ -1,0 +1,61 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* Common Styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+}
+
+/* Header Section Styles */
+.header-container{
+    display: flex;
+    background-color: #2D25A0;
+    width: 100%;
+    height: 677px;
+}
+
+/* .top-area{
+    padding-top: 121px;
+    padding-right: 102px;
+    padding-bottom: 169px;
+    padding-left: 156px;
+} */
+
+.section-title{
+    color: #FFFFFF;
+    font-size: 50px;
+    padding-top: 121px;
+    padding-right: 102px;
+    padding-bottom: 27px;
+    padding-left: 156px;
+    
+}
+
+.button-area{
+    
+    padding-top: 27px;
+    padding-right: 419px;
+    padding-bottom: 169px;
+    padding-left: 156px;
+}
+button{
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+}
+
+.button-area a{
+    text-decoration: none;
+    color:#FFFFFF;
+    padding: 10px 24px;
+}
+
+.header-banner img{
+    width: 556px;
+    height: 438px;
+    padding-top: 153px;
+    padding-right: 141px;
+    padding-bottom: 86px;
+
+}
