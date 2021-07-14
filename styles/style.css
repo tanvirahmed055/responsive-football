@@ -12,64 +12,68 @@ body{
 
 
 
-/* Header Section Styles */
-.header-container{
-    display: flex;
+/* Header-Banner Styles */
+
+.banner-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     background-color: #2D25A0;
-    width: 100%;
     height: 677px;
 }
-
-.section-title{
-    color: #FFFFFF;
-    font-size: 50px;
-    padding-top: 121px;
-    padding-right: 102px;
+.banner-area-left{
+    padding-top: 207px;
+    padding-left: 116px;
+    width: 75%;
+}
+.banner-area-left h1{
+    color: white;
+    font-size: 64px;
+    line-height: 80px;
     padding-bottom: 27px;
-    padding-left: 156px;
-    
+    margin: 0px;   
 }
-
-.button-area{
-    
-    padding-top: 27px;
-    padding-right: 419px;
-    padding-bottom: 169px;
-    padding-left: 156px;
-}
-button{
+.banner-area-left a{
     width: 168px;
     height: 44px;
     background-color: #E02C6D;
-}
-
-.button-area a{
+    color: white;
     text-decoration: none;
-    color:#FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
     padding: 10px 24px;
-}
-
-.header-banner img{
-    width: 556px;
-    height: 438px;
-    padding-top: 153px;
-    padding-right: 141px;
-    padding-bottom: 86px;
 
 }
+.banner-area-left i{
+ padding-left: 8px;
+}
 
+.banner-area-right {
+    width: 50%;
+    padding: 153px 115px 86px 40px;
+    transition: transform 2s ease-in-out;
+}
+.banner-area-right img{
+  width: 556px;
+  height: 438px;
+}
+
+.banner-area-right img:hover {
+    width: 700px;
+    height: 600px;
+    transform: scale(1.1) skew(20deg);
+}
 /* Players Profile Styles */
 
 .player-container{
-    padding-top: 70px;
+    padding-top: 78px;
 }
 .players-profile{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-left: 150px;
-    margin-right: 145px;
     column-gap: 30px;
     row-gap: 27px;
+    margin-right: 145px; 
+    margin-left: 150px;       
 }
 .player-content {
     width: 330px;
@@ -103,6 +107,7 @@ button{
 
 .news-container{
     padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .news-container h1{
@@ -141,7 +146,7 @@ button{
     padding-left: 15px;
     font-weight: 700;
     font-size: 28px;
-    color: #0f132b;
+    color: #0A0826;
     margin: 0;
 }
 .news-detail p{
