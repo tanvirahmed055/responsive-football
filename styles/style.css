@@ -7,7 +7,10 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0 auto;
+    overflow-x: hidden;
 }
+
+
 
 /* Header Section Styles */
 .header-container{
@@ -57,43 +60,126 @@ button{
 
 /* Players Profile Styles */
 
-.container{
-    width:100%;
+.player-container{
     padding-top: 70px;
-    /* padding-right: 20px; */
-    padding-bottom: 158px;
-    /* padding-left: 10px; */
 }
 .players-profile{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 27px;
-    grid-column-gap: 30px;
-    padding-right: 190px;
-    padding-left: 150px;
+    margin-left: 150px;
+    margin-right: 145px;
+    column-gap: 30px;
+    row-gap: 27px;
 }
-
-.player{
+.player-content {
     width: 330px;
     height: 474px;
-    padding: 15px;
+    background-color: white;
     box-shadow: 10px 10px 40px gray;
-    border-radius: 10px;
-    text-align: left;
- }
- 
- .player img{
+}
+
+.player-content img{
     width: 300px;
     height: 256px;
- }
- 
- .player h5{
-     color: #0a0a0a;
-     font-weight: 700; 
- }
+    padding: 15px 15px 10px 15px;
+}
+.player-content h3{
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 28px;
+    color: #0f132b;
+    margin: 0;
+}
+.player-content p{
+    padding: 15px;
+    margin: 0;
+    font-size: 16px;
+    color: #6C6C6C;
+    text-align: justify;
+    margin-top: -5px;
+}
+
+/* Latest News Styles */
+
+.news-container{
+    padding-top: 70px;
+}
+
+.news-container h1{
+    font-weight: 700;
+    font-size: 46px;
+    color: #0f132b;
+    text-align: center;
+}
+
+.news{
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    justify-content: center;
+    column-gap: 50px;
+    row-gap: 30px;
+}
+.news-content {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.news-details{
+    display: flex;
+    flex-direction: column;
+}
+.news-content img{
+    width: 150px;
+    height: 250px;
+    padding: 15px 15px 10px 15px;
+}
+.news-content h3{
+    padding-top: 10px;
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 28px;
+    color: #0f132b;
+    margin: 0;
+}
+.news-detail p{
+    padding: 15px;
+    margin: 0;
+    font-size: 16px;
+    color: #6C6C6C;
+    text-align: justify;
+    margin-top: -5px;
+}  
+
+/* Video Gallery Styles */
+
+.videos-container{
+    padding: 20px;
+}
+
+.videos-container h1{
+    font-weight: 700;
+    font-size: 40px;
+    color: #0f132b;
+    text-align: center;
+}
+
+.videos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 5%;
+} 
+
+
+
 
  /* Footer Style */
 
+ footer{
+     margin-top: 100px;
+ }
  .footer-container{
     text-align: center;
     bottom: 0;  
