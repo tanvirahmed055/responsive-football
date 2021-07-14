@@ -1,6 +1,8 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 /* Common Styles */
 body{
     font-family: 'Poppins', sans-serif;
@@ -56,6 +58,7 @@ button{
 /* Players Profile Styles */
 
 .container{
+    width:100%;
     padding-top: 70px;
     /* padding-right: 20px; */
     padding-bottom: 158px;
@@ -82,10 +85,33 @@ button{
  .player img{
     width: 300px;
     height: 256px;
-    justify-content: center;
  }
  
  .player h5{
      color: #0a0a0a;
      font-weight: 700; 
+ }
+
+ /* Footer Style */
+
+ .footer-container{
+    text-align: center;
+    bottom: 0;  
+ }
+
+ .footer-container img{
+    width:400px;
+    height:60px;
+    margin-bottom: 20px;
+ }
+
+ .footer-container .fab{
+      padding-right: 20px;
+      color: gray;
+      margin-bottom: 20px;
+ }
+
+ .copyright-text{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 63px;
  }
